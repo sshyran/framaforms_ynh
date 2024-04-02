@@ -7,7 +7,7 @@ name = "Framaforms"
 description.en = "Create online webforms and surveys"
 description.fr = "Créez des formulaires et questionnaires en ligne"
 
-version = "1.0.3~ynh4"
+version = "1.1~ynh1"
 
 maintainers = []
 
@@ -73,8 +73,8 @@ ram.runtime = "50M"
 
 [resources]
     [resources.sources.main]
-    url = "https://framagit.org/yakforms/yakforms/-/archive/1.0.3/yakforms-1.0.3.tar.gz"
-    sha256 = "f8a8ac8789c36f07f2d1a03d13f9f6d947e499967b79ea626f7f87271a357703"
+    url = "https://framagit.org/yakforms/yakforms/-/archive/v1.1/yakforms-v1.1.tar.bz2"
+    sha256 = "cf66dec5c3f213c85bb200ef2783310c63732ef10c4e31470fddb6bd13cc0a22"
 
     autoupdate.strategy = "latest_gitlab_release"
 
